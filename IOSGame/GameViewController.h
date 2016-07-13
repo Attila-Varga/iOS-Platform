@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
 
+#include "Wrapper.mm"
+
 @interface GameViewController : GLKViewController
+{
+    DMGS::DMEngine* engine;
+}
 
 @end
+
+
